@@ -4,7 +4,7 @@
 using System;
 class SmallestMultiple
 {
-    static void Main(string[] args)
+    static void Main()
     {
         checked
         {

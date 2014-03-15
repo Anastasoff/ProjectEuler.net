@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.LargestPalindromeProduct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SmallestMultiple", "SmallestMultiple\05.SmallestMultiple.csproj", "{79A4412E-D32B-458C-91E6-0DED0EBF1C09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SumSquareDifference", "SumSquareDifference\06.SumSquareDifference.csproj", "{3EB3A960-3818-4E9D-8DB7-798A4355BFA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{79A4412E-D32B-458C-91E6-0DED0EBF1C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79A4412E-D32B-458C-91E6-0DED0EBF1C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79A4412E-D32B-458C-91E6-0DED0EBF1C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB3A960-3818-4E9D-8DB7-798A4355BFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB3A960-3818-4E9D-8DB7-798A4355BFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB3A960-3818-4E9D-8DB7-798A4355BFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB3A960-3818-4E9D-8DB7-798A4355BFA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
