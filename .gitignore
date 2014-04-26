@@ -100,6 +100,9 @@ $tf/
 *.rar
 *.zip
 *.pptx
+*.doc
+*.docx
+Thumbs.db
 [Bb]in
 [Oo]bj
 sql
