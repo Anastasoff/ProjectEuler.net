@@ -1,4 +1,4 @@
-function isPrime(number) {
+﻿function isPrime(number) {
     var isNumberPrime = true,
         maxDevider = Math.sqrt(number);
 
@@ -26,8 +26,8 @@ function findNhPrime(start, end) {
     return primesList;
 }
 
-var result = findNhPrime(1, 105000);
+var result = findNhPrime(1, 104745);
 
-for (var i = result.length - 30; i < result.length; i++) {
+for (var i = result.length - 1; i < result.length; i++) {
     console.log(i + ' > ' + result[i]);
 }
