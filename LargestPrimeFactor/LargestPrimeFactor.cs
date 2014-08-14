@@ -2,9 +2,9 @@
 //  What is the largest prime factor of the number 600851475143 ?
 using System;
 
-class LargestPrimeFactor
+internal class LargestPrimeFactor
 {
-    static void Main()
+    private static void Main()
     {
         long number = 600851475143;
         long prime = 2;
@@ -31,4 +31,3 @@ class LargestPrimeFactor
         Console.WriteLine(largest); // 6857
     }
 }
-

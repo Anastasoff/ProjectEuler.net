@@ -2,9 +2,9 @@
 //  Find the sum of all the multiples of 3 or 5 below 1000.
 using System;
 
-class MultiplesOf3And5
+internal class MultiplesOf3And5
 {
-    static void Main()
+    private static void Main()
     {
         int sum = 0;
         for (int i = 0; i < 1000; i++)

@@ -2,9 +2,9 @@
 //  Find the largest palindrome made from the product of two 3-digit numbers.
 using System;
 
-class LargestPalindromeProduct
+internal class LargestPalindromeProduct
 {
-    static void Main()
+    private static void Main()
     {
         int largest = 0;
         int product = 0;
@@ -33,7 +33,7 @@ class LargestPalindromeProduct
         Console.WriteLine(largest); // 906609
     }
 
-    static bool IsPalindrome(int number)
+    private static bool IsPalindrome(int number)
     {
         int palindrome = number; // copied number into variable
         int reverse = 0;

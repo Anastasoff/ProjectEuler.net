@@ -3,15 +3,15 @@
 using System;
 using System.Numerics;
 
-class EvenFibonacciNumbers
+internal class EvenFibonacciNumbers
 {
-    static void Main()
+    private static void Main()
     {
         BigInteger fibonacciZero = 0;
         BigInteger fibonacciOne = 1;
         BigInteger sum = 0;
         int sequenceLength = 35;
-        for (int i = 0; i < sequenceLength+2; i++)
+        for (int i = 0; i < sequenceLength + 2; i++)
         {
             if (fibonacciZero % 2 == 0 && fibonacciZero <= 4000000)
             {
@@ -19,10 +19,9 @@ class EvenFibonacciNumbers
             }
 
             fibonacciZero += fibonacciOne;
-            fibonacciOne = fibonacciZero - fibonacciOne;            
+            fibonacciOne = fibonacciZero - fibonacciOne;
         }
 
         Console.WriteLine(sum); // 4613732
     }
 }
-

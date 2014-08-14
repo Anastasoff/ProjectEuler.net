@@ -7,9 +7,9 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 using System;
 
-class SumSquareDifference
+internal class SumSquareDifference
 {
-    static void Main()
+    private static void Main()
     {
         int SumOfTheSquares = 0;
         for (int i = 1; i <= 100; i++)
@@ -29,4 +29,3 @@ class SumSquareDifference
         Console.WriteLine(SquareOfTheSum - SumOfTheSquares);
     }
 }
-
